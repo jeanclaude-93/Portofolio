@@ -55,3 +55,4 @@ body{background:linear-gradient(180deg,#D3EBF9 0,var(--paper) 32rem) no-repeat v
 .photo{width:9rem;height:9rem;border-radius:50%;object-fit:cover;border:5px solid var(--pallet);background:#fff}
 .wins{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr))}
 .win{background:#fff;border-left:6px solid var(--pallet);padding:1rem 1.25rem;margin:0}
+.hero .btn{margin-bottom:.5rem}
