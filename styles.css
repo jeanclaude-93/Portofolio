@@ -168,3 +168,7 @@ header.top nav .brand{color:#fff}
 [data-theme="dark"] input,[data-theme="dark"] textarea{background:#10202F;border-color:#3A5670;color:var(--ink)}
 [data-theme="dark"] .job>div:last-child::before{border-color:var(--paper)}
 [data-theme="dark"] #status.err{color:#FF9D9D}
+
+/* ---- Bouton thème : violet ---- */
+.theme,[data-theme="dark"] .theme{background:#7C5CFF;border-color:#7C5CFF;color:#fff;box-shadow:0 0 0 3px rgba(124,92,255,.3)}
+.theme:hover,[data-theme="dark"] .theme:hover{background:#9B82FF;border-color:#9B82FF;color:#fff}
