@@ -185,3 +185,13 @@ html[data-lang="en"] [data-l="en"]{display:block}
 html[data-lang="en"] [data-l="fr"]{display:none}
 header.top nav a[href="#en-contact"]{background:#F5B83D;color:#10243A}
 header.top nav a[href="#en-contact"]:hover{background:#FFCB66;color:#10243A}
+
+/* ---- Contact : réseaux principaux + autres réseaux ---- */
+.reach{display:flex;flex-wrap:wrap;gap:1.5rem 3rem;align-items:flex-start;margin-top:1.5rem}
+.reach .social{margin:0}
+.others .olabel{margin:0 0 .6rem;font-weight:600;color:var(--muted);font-size:.9rem}
+.social.small a,.social.small button{padding:.45rem .9rem;font-size:.92rem}
+.social button{display:inline-flex;align-items:center;gap:.5rem;padding:.6rem 1.1rem;border:2px solid var(--ink);border-radius:999px;color:var(--ink);background:#fff;font:inherit;font-weight:600;cursor:pointer}
+.social button:hover{background:var(--ink);color:#fff}
+[data-theme="dark"] .social button{background:#10202F;border-color:#3A5670;color:var(--ink)}
+[data-theme="dark"] .social button:hover{background:var(--ink);color:#08111B}
