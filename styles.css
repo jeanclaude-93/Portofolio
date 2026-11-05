@@ -195,3 +195,6 @@ header.top nav a[href="#en-contact"]:hover{background:#FFCB66;color:#10243A}
 .social button:hover{background:var(--ink);color:#fff}
 [data-theme="dark"] .social button{background:#10202F;border-color:#3A5670;color:var(--ink)}
 [data-theme="dark"] .social button:hover{background:var(--ink);color:#08111B}
+
+/* ---- Synthèse : sous-ligne ---- */
+.stat .sub{display:block;margin-top:.2rem;font-size:.85rem;font-weight:500;color:var(--teal)}
